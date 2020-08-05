@@ -213,6 +213,11 @@
 				<key>acpi-wake-type</key>
 				<data>AQ==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>shikigva</key>
+				<integer>80</integer>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
