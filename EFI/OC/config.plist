@@ -198,11 +198,20 @@
 			<dict>
 				<key>layout-id</key>
 				<data>AQAAAA==</data>
+				<key>No-hda-gfx</key>
+				<data>AAAAAAAAAAA=</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwAiDQ==</data>
+				<key>framebuffer-patch-enable	</key>
+				<data>AQAAAA==</data>
+			</dict>
+			<key> PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>acpi-wake-type</key>
+				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -690,7 +699,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 </string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1 setpowerstate_panic=0 igfxonln=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
