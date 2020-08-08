@@ -720,7 +720,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=1 setpowerstate_panic=0 igfxonln=1</string>
+				<string>keepsyms=1 debug=0x100 alcid=1 igfxonln=1 igfxagdc=0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
