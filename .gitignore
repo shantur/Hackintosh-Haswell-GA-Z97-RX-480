@@ -2,3 +2,6 @@
 .Trashes
 .Spotlight*
 opencore*.txt
+System Volume Information
+.fseventsd
+$RECYCLE.BIN
