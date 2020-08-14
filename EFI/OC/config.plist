@@ -265,7 +265,7 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -680,6 +680,8 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array>
+			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+			<string>\EFI\ubuntu\shimx64.efi</string>
 		</array>
 		<key>Boot</key>
 		<dict>
@@ -863,7 +865,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<false/>
+			<true/>
 			<key>MLB</key>
 			<string>C02433405GUG2Y7JA</string>
 			<key>ROM</key>
